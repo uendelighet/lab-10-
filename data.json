@@ -15,11 +15,6 @@
             "titulo": "Maria",
             "link": "https://blocs.xtec.cat/quevolsllegir/files/2016/04/Sense-t%C3%ADtol.png",
             "ranking": "5"
-        }
-        {
-            "titulo": "Maria",
-            "link": "https://blocs.xtec.cat/quevolsllegir/files/2016/04/Sense-t%C3%ADtol.png",
-            "ranking": "5"
         },
         {
             "titulo": "Maria",
@@ -30,7 +25,12 @@
             "titulo": "Maria",
             "link": "https://blocs.xtec.cat/quevolsllegir/files/2016/04/Sense-t%C3%ADtol.png",
             "ranking": "5"
-        }
+        },
+        {
+            "titulo": "Maria",
+            "link": "https://blocs.xtec.cat/quevolsllegir/files/2016/04/Sense-t%C3%ADtol.png",
+            "ranking": "5"
+        },
 {
             "titulo": "Maria",
             "link": "https://blocs.xtec.cat/quevolsllegir/files/2016/04/Sense-t%C3%ADtol.png",
@@ -45,7 +45,7 @@
             "titulo": "Maria",
             "link": "https://blocs.xtec.cat/quevolsllegir/files/2016/04/Sense-t%C3%ADtol.png",
             "ranking": "5"
-        }
+        },
 {
             "titulo": "Maria",
             "link": "https://blocs.xtec.cat/quevolsllegir/files/2016/04/Sense-t%C3%ADtol.png",
@@ -71,10 +71,6 @@
         {
             "titulo": "Maria",
             "link": "https://blocs.xtec.cat/quevolsllegir/files/2016/04/Sense-t%C3%ADtol.png"
-        }
-        {
-            "titulo": "Maria",
-            "link": "https://blocs.xtec.cat/quevolsllegir/files/2016/04/Sense-t%C3%ADtol.png"
         },
         {
             "titulo": "Maria",
@@ -83,8 +79,12 @@
         {
             "titulo": "Maria",
             "link": "https://blocs.xtec.cat/quevolsllegir/files/2016/04/Sense-t%C3%ADtol.png"
-            
-        }
+        },
+        {
+            "titulo": "Maria",
+            "link": "https://blocs.xtec.cat/quevolsllegir/files/2016/04/Sense-t%C3%ADtol.png"
+
+        },
         {
             "titulo": "Maria",
             "link": "https://blocs.xtec.cat/quevolsllegir/files/2016/04/Sense-t%C3%ADtol.png"
@@ -102,3 +102,4 @@
             "link": "https://blocs.xtec.cat/quevolsllegir/files/2016/04/Sense-t%C3%ADtol.png"
         }
     ]
+}
