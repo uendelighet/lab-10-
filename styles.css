@@ -100,7 +100,7 @@
     text-transform: uppercase;
   }
   
-  .movies-container {
+  .movies-container, .movies-recommended{
     max-width: 968px;
     margin-right: auto;
     margin-left: auto;

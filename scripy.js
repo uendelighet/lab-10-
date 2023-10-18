@@ -5,13 +5,26 @@ export const obtenerData = async () => {
     return data;
 }
 
-const crearContenedor = () => {
-    const div = document.createElement('div');
+
+
+const crearContenedor = async (section) => {
+    
+    let dataReady = await obtenerData();
+
+    dataReady.recientes.forEach((movie) => {
+        const div = document.createElement('div');
     div.className = 'box';
 
     const img = document.createElement('img');
-    img.className = 'fotos movie-image'; 
+    img.className = 'fotos movie-image';
     img.alt = '';
+    img.src = movie.link;
+    img.id = movie.id;
+
+    img.addEventListener("click", function(){
+        document.getElementById("banner").style.backgroundImage=`url(${img.src})`
+        document.getElementById("titlePelicula").innerHTML = movie.titulo
+    })
 
     const button = document.createElement('button');
     button.className = 'boton';
@@ -30,26 +43,34 @@ const crearContenedor = () => {
     div.appendChild(button);
     div.appendChild(rankingDiv);
 
-    return div;
+    section.appendChild(div);
+    })
 };
 
-const render = async () => {
+const render = async (section) => {
     let dataReady = await obtenerData();
-    let movieContainer = document.querySelector(".movies-container");
 
     dataReady.recientes.forEach((movie) => {
         const img = document.createElement('img');
         img.className = 'fotos movie-image';
         img.alt = '';
         img.src = movie.link;
-        movieContainer.appendChild(img);
+        section.appendChild(img);
     });
 
     const contenedor = crearContenedor();
 
-    movieContainer.appendChild(contenedor);
+    section.appendChild(contenedor);
 }
 
 
 
-window.onload = render;
+window.onload = () => {
+    let movieContainer = document.querySelector(".movies-container");
+    let recommended = document.querySelector(".movies-recommended");
+
+    crearContenedor(movieContainer)
+    crearContenedor(recommended)
+
+    Cambiarcolor(coral)
+};
