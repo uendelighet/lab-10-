@@ -1,0 +1,154 @@
+* {
+    padding: 0;
+    margin: 0;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    background-color: gray;
+  }
+  
+  .iconly {
+    width: 50px;
+    height: 50px;
+  }
+  
+  .navbar{
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    display: flex;
+    align-items: center;
+    padding: 1rem;
+    box-sizing: border-box;
+    width: 100%;
+    justify-content: space-between;
+  }
+  
+  .items {
+    display: flex;
+    align-items: center;
+    gap: .6rem;
+  }
+  
+  .items__text {
+    color: white;
+  }
+  
+  .banner {
+    background-image: url("https://t2.uc.ltmcdn.com/es/posts/7/3/7/como_conseguir_caratulas_para_peliculas_1737_orig.jpg");
+    height: 500px;
+    background-size: auto;
+    background-position: center;
+    opacity: .8;
+    padding: 30px;
+    color: white;
+  }
+  
+  .container-details {
+    margin-top: 360px;
+  }
+  
+  .title {
+    display: flex;
+      flex-direction: row;
+  }
+  
+  .container-btn {
+    display: flex;
+    flex-direction: row;
+    gap: 1%;
+    margin-top: 20px;
+  }
+  
+  .button-sec {
+    background-color: #5117fc;
+    border: 2px;
+    padding: 5px 10px;
+    text-align: center;
+    justify-content: space-between;
+    color: white;
+    cursor: pointer;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    text-decoration: none; /* Corrected property name */
+    width: 100px;
+  }
+  
+  .form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .movies {
+    background-color: black;
+    color: white;
+  }
+  
+  .heading {
+    max-width: 968px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 1.2rem;
+    font-weight: 500;
+    text-transform: uppercase;
+  }
+  
+  .movies-container {
+    max-width: 968px;
+    margin-right: auto;
+    margin-left: auto;
+    display: flex;
+    /* grid-template-columns: repeat(auto-fit, minmax(180pc,auto)); */
+    gap: 1rem;
+    margin-top: 2rem;
+    overflow-x: auto;
+  }
+  
+  .box .box-img {
+    width: 100%;
+    height: 270px;
+  }
+  
+  .box .box-img img {
+  
+    width: 100%;
+    height: 100;
+    object-fit: cover;
+  }
+  
+  .fotos {
+    height: 300px;
+  }
+  
+  .boton {
+    position: relative;
+    left: 40px;
+    top: -40px;
+    transform: translate(-50%, -50%);
+    background-color: #5117fc;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  .boton-edad {
+    position: relative;
+    left: 90px;
+    top: -280px;
+    transform: translate(-50%, -50%);
+    background-color: #615e6a;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+  }
